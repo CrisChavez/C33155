@@ -191,3 +191,9 @@ footer {
 #audiencia-2:hover {
     transform: scale(1.1);
 }
+
+@media (max-width 480px) {
+    #carouselExampleIndicators {
+        display: none;
+    }
+}
