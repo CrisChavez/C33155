@@ -192,8 +192,34 @@ footer {
     transform: scale(1.1);
 }
 
-@media (max-width 480px) {
+
+
+/* VIDEO INTRO CONFIG */
+.video-intro {
+    width: 99vw;
+    height: 88vh;
+}
+
+
+
+
+/* MEDIA QUERYS */
+
+@media (max-width: 480px) {
     #carouselExampleIndicators {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    #compra {
+        display: none;
+    }
+}
+
+
+@media (max-width: 720px) {
+    .video-intro {
         display: none;
     }
 }
